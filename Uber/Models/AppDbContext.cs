@@ -4,6 +4,7 @@ namespace Uber.Models
 {
     public class AppDbContext : DbContext
     {
+        //new
         public DbSet<User> Users { get; set; }
         public DbSet<Ride> Rides    { get; set; }
         public DbSet<Payment> Payments { get; set; }
