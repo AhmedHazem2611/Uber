@@ -15,6 +15,8 @@ namespace Uber.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+            //test
             modelBuilder.Entity<User>()
                 .HasOne(e => e.Vehicle)
                 .WithOne(e => e.Driver)
